@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .index {
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background: #333;
+  }
+  
+  .index button {
+    padding: 8px 12px;
+    border: none;
+    background: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .index button:hover {
+    background: #777;
+  }
+  
+  .viewport {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .pages {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    transition: transform 0.6s ease; /* smooth animated sliding */
+  }
+  
+  .page {
+    min-width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background: #E7A1B8";
+  }
+  
