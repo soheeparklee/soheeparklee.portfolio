@@ -11,6 +11,7 @@ const body = document.body;
    Page 6 → index 5 → #16610E  
    Page 7 → index 6 → #FDC002  
 */
+
 const pageColors = [
   "#E7A1B8",
   "#333333",
