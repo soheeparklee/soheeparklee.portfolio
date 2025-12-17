@@ -1,33 +1,38 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
+    font-family: 'Barrio', cursive;
+    color: white;
     overflow: hidden;
     background: #E7A1B8;
   }
   
+/* index button */
+
   .index {
     display: flex;
     gap: 5px;
     padding: 10px;
-    background: #333;
   }
   
   .index button {
-    padding: 8px 12px;
+    padding: 0px 6px;
     border: none;
-    background: #555;
-    color: white;
+    background: transparent;
     cursor: pointer;
-    border-radius: 4px;
-  }
-  .index button:hover {
-    background: #777;
-  }
+    }
 
-  .circle-button{
+  .circle-button-img{      
     width: 30px;
     height: 30px;
   }
+
+  .index button:hover .circle-button-img{
+
+    content: url("../images/button/main-circle-button-gray.png");
+  }
+
+
+
+/* pages */
   
   .viewport {
     width: 100vw;
@@ -49,7 +54,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
     background: #E7A1B8";
   }
+
+  .page-title{
+    font-size: 10rem;
+  }
   
+/* find out more button */
+
+  .page-button{
+    font-size: 2rem;
+    border: dashed 3px white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+  }
