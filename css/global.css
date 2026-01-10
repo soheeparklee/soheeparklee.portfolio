@@ -22,6 +22,7 @@ body {
     color: var(--color-text);
     overflow: hidden;
     background: var(--color-pink);
+    margin: 0;
 }
 
 /* reset */
