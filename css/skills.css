@@ -8,7 +8,7 @@ body{
 .skill{
     display: grid;
     grid-template-columns: max-content 1fr;
-    margin: 1rem;
+    margin: 0.3rem;
     gap: 8px;
 }
 

@@ -1,0 +1,42 @@
+body{
+    background-color: var(--color-green);
+}
+
+.educations{
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin: 3rem;
+}
+
+.education{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    border-top: 3px solid rgba(0,0,0,0.3);
+}
+
+.education__img{
+    width: 150px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.education__bubble{
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.education__school{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.education__duration{
+    color: lightslategray;
+    font-size: 0.8rem;
+}
+
+.education__description{
+    font-style: italic;
+    margin-top: 0.5rem;
+}

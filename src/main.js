@@ -15,10 +15,10 @@ const body = document.body;
 const pageColors = [
   "#E7A1B8",
   "#333333",
+  "#334155",
+  "#16610E",
   "#FDC002",
   "#333333",
-  "#E7A1B8",
-  "#16610E",
   "#FDC002",
   "#334155",
   "#E7A1B8",

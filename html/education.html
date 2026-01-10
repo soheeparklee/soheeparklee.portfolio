@@ -21,30 +21,74 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1dad10d78a.js" crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Javascript -->
-    <script src= "src/main.js"></script>
+    <link rel="stylesheet" href="../css/global.css"/>
+    <link rel="stylesheet" href="../css/education.css"/>
 </head>
 <body>
-        <!-- Education -->
-        <section id="edu" class="section">
-            <h2 class="section__title">Education</h2>
-            <p class="section__description">Programming is never ending learning</p>
-            <ul>
-                <li><img src="./images/logo.png" alt="Clara Del Rey">
-                    <p><a href="https://site.educa.madrid.org/ies.claradelrey.madrid/"></a>Clara Del Rey</p>
-                    <p>Sept 2025 - Present</p>
-                    <p>Java, Lenguaje de Marcas, Entornos de Desarollo</p>
-                </li>
-                <li><img src="./images/logo.png" alt="SNUE">
-                    <p><a href="https://site.educa.madrid.org/ies.claradelrey.madrid/"></a>M.S in Computer Science Education</p>
-                    <p>March 2020 - June 2022</p>
-                    <p>GPA: 4.5/4.5</p>
-                    <p>Built a code translation tool to bridge language barriers and facilitate data analysis education for non-native English
-                        speakers.
-                    </p>
-                </li>
-            </ul>
-        </section>
+        <!-- Header -->
+        <header class="header">
+            <nav>
+                <ul class="header__menu">
+                    <li><a class="header__menu__item active" href="./main.html">Home</a></li>
+                    <li><a class="header__menu__item" href="./about.html">About</a></li>
+                    <li><a class="header__menu__item" href="./skills.html">Skills</a></li>
+                    <li><a class="header__menu__item" href="./projects.html">Projects</a></li>
+                    <li><a class="header__menu__item" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Education -->
+            <section id="education" class="section max-container">
+                <h2 class="section__title">Education</h2>
+                <p class="section__description">Programming is never ending learning</p>
+                <ul class="educations">
+                    <li class="education">
+                        <img src="../assets/images/education/clara.png" alt="Clara Del Rey" class="education__img">
+                        <div class="education__bubble">
+                            <p cclass="education__study"><a
+                                href="https://site.educa.madrid.org/ies.claradelrey.madrid/" 
+                                class="education__bubble__link"><strong class="education__school">Clara Del Rey</strong>
+                                </a>
+                                </br>
+                                Formacion Professional</p>
+                            <p class="education__duration">Sept 2025 - Present</p>
+                            <p class="education__description">Java, Lenguaje de Marcas, Entornos de Desarollo</p>
+                        </div>
+                    </li>
+                    <li class="education">
+                        <img src="../assets/images/education/snue.jpeg" alt="SNUE" class="education__img">
+                        <div class="education__bubble">
+                            <p class="education__study"><a 
+                                href="https://site.educa.madrid.org/ies.claradelrey.madrid/" 
+                                class="education__bubble__link"><strong class="education__school">Seoul National University of Education</strong>
+                            </a>
+                            </br>
+                            M.S in Computer Science Education</p>
+                            <p class="education__duration">March 2020 - June 2022</p>
+                            <p>GPA: 4.5/4.5</p>
+                            <p class="education__description">Built a code translation tool to bridge language barriers and facilitate data analysis education for non-native English
+                                speakers.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="education">
+                        <img src="../assets/images/education/snue.jpeg" alt="SNUE" class="education__img">
+                        <div class="education__bubble">
+                            <p class="education__study"><a 
+                                href="https://site.educa.madrid.org/ies.claradelrey.madrid/" 
+                                class="education__bubble__link"><strong class="education__school">Seoul National University of Education</strong>
+                            </a>
+                            </br>
+                            B.S in Education</p>
+                            <p class="education__duration">March 2015 - Feb 2019</p>
+                            <p>GPA: 0/4.5</p>
+                            <p class="education__description">Education is fun
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
 </body>
 </html>
