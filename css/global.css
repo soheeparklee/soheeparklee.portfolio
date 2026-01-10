@@ -12,6 +12,12 @@
     --color-green: #16610E;
     --color-navy: #334155;
 
+    /* Box colors */
+    --color-gray: rgba(85, 85, 85, 0.9);
+    --color-cold-gray: #6B7280;
+    --color-warm-gray: #767676;
+    --color-deep-gray: #555555;
+
     /* Header height */
     --header-height: 50px;
 }
@@ -53,7 +59,7 @@ button{
 }
 
 .section__title{
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 1rem 0;
 }
 
