@@ -17,29 +17,42 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1dad10d78a.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/about.css" />
     
     <!-- Javascript -->
     <script src= "src/main.js"></script>
 </head>
+
+
 <body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="./main.html">Home</a></li>
+                <li><a class="header__menu__item" href="./about.html">About</a></li>
+                <li><a class="header__menu__item" href="./skills.html">Skills</a></li>
+                <li><a class="header__menu__item" href="./projects.html">Projects</a></li>
+                <li><a class="header__menu__item" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Main -->
     <main>
-        <!-- Home -->
-        <section id="home">
-            <img src="./images/subject.png" alt="Profile Picture of So Hee">
-            <h2>Hello, I am So Hee</h2>
-            <p>𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝗱 𝗝𝘂𝗻𝗶𝗼𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 with 1+ years of hands-on experience in Java and SpringBoot software development. 
+        <!-- Intro -->
+        <section id="intro">
+            <img class="intro__avatar" src="../assets/images/intro/logo.png" alt="Profile Picture of So Hee">
+            <h2 class="intro__title">Hello, I&#39;m <strong class="intro__title--strong">your spine</strong>, <br /> So Hee</h2>
+            <p class="intro__description">𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝗱 𝗝𝘂𝗻𝗶𝗼𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 with 1+ years of hands-on experience in Java and SpringBoot software development. 
                 I provide tailored backend services and solutions, develop and maintain servers, database and backend APIs to meet business needs. 
             </p>
-            <a href="#contact">Let's Talk!</a>
+            <a class="intro__contact" href="./contact.html">Let's Talk!</a>
         </section>
         <!-- About me -->
         <section id="about">
