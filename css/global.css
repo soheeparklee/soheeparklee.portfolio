@@ -46,6 +46,23 @@ button{
     background: transparent;
 }
 
+/* common */
+.section{
+    padding: 1rem;
+    text-align: center;
+}
+
+.section__title{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.section__description{
+    font-size: 1rem;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin: 0.5rem 0;
+}
+
 /* header */
 .header{
     background-color: transparent;
@@ -60,22 +77,22 @@ button{
     justify-content: flex-end;
     align-items: center;
 } 
-  
+
 .header__menu{
     display: flex;
     gap: 0px;
 }
-  
-  .header__menu__item{
+
+.header__menu__item{
     padding: 4px 16px;
-  }
-  
-  .header__menu__item:hover{
+}
+
+.header__menu__item:hover{
     outline: 1px dashed var(--color-white);
     border-radius: 10px;
-  }
-  
-  .header__menu__item.active{
+}
+
+.header__menu__item.active{
     outline: 1px dashed var(--color-white);
     border-radius: 10px;
-  }
+}

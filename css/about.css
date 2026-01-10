@@ -25,11 +25,6 @@ main{
     text-decoration-style: wavy;
 }
 
-.intro__description{
-    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    margin-bottom: 0.5rem;
-}
-
 .intro__contact{
     display: inline-block;
     font-weight: bold;
@@ -42,4 +37,10 @@ main{
 .intro__contact:hover{
     text-decoration-line: underline; 
     text-decoration-style: wavy;
+}
+
+/* About */
+.section__description{
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin-bottom: 0.5rem;
 }
