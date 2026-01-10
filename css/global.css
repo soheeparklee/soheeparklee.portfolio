@@ -37,6 +37,11 @@ body {
     margin: 0;
 }
 
+main{
+    padding-top: var(--header-height);
+
+}
+
 /* reset */
 h1, h2, h3, p, ul{
     margin: 0;

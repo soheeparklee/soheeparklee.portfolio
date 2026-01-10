@@ -21,49 +21,61 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1dad10d78a.js" crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Javascript -->
-    <script src= "src/main.js"></script>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/skills.css" />
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="./main.html">Home</a></li>
+                <li><a class="header__menu__item" href="./about.html">About</a></li>
+                <li><a class="header__menu__item" href="./skills.html">Skills</a></li>
+                <li><a class="header__menu__item" href="./projects.html">Projects</a></li>
+                <li><a class="header__menu__item" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <!-- Skills -->
-        <section id="skills" class="section">
+        <section id="skills" class="section max-container">
             <h2 class="section__title">My Tech Skills</h2>
             <p class="section__description">
                 Experience will all phases of software development cycle, with a strong focus on backend developement. 
                 Passion for learning new languages and improving my tech stack. 
             </p>
             <div>
-                <ul>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-laptop-code"></i>
-                            <p>Language</p>
+                <ul class="skills">
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-solid fa-laptop-code skill__icon"></i>
+                            <p class="skill__title__box">Language</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"/>
                             <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
                             <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <i class="fa-brands fa-html5"></i>
-                            <p>Frontend</p>
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-brands fa-html5 skill__icon"></i>
+                            <p class="skill__title__box">Frontend</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
                             <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
                             <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
                             <img src="https://img.shields.io/badge/fontawesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white">
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-server"></i>
-                            <p>Backend</p>
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-solid fa-server skill__icon"></i>
+                            <p class="skill__title__box">Backend</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
                             <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
                             <img src="https://img.shields.io/badge/spring security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
@@ -73,22 +85,22 @@
                         
 
                     </li>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-database"></i>
-                            <p>Databases</p>
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-solid fa-database skill__icon"></i>
+                            <p class="skill__title__box">Databases</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
                             <img src="https://img.shields.io/badge/mariaDB-003545?style=for-the-badge&logo=mariaDB&logoColor=white">
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-cloud-arrow-up"></i>
-                            <p>DevOps</p>
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-solid fa-cloud-arrow-up skill__icon"></i>
+                            <p class="skill__title__box">DevOps</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/amazon web services-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
                             <img src="https://img.shields.io/badge/amazon (ec2, rds, s3)-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/>
                             <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
@@ -97,12 +109,12 @@
                             <img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
                         </div>
                     </li>
-                    <li>
-                        <div>
-                            <i class="fa-solid fa-screwdriver-wrench"></i>
-                            <p>Tools</p>
+                    <li class="skill">
+                        <div class="skill__title">
+                            <i class="fa-solid fa-screwdriver-wrench skill__icon"></i>
+                            <p class="skill__title__box">Tools</p>
                         </div>
-                        <div>
+                        <div class="skill__description">
                             <img src="https://img.shields.io/badge/intellij idea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
                             <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
                             <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -111,7 +123,6 @@
                 </ul>
             </div>
         </section>
-        <!-- Arrow Up -->
-        <aside></aside>
+    </main>
 </body>
 </html>

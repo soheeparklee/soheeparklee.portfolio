@@ -1,0 +1,45 @@
+body{
+    background-color: var(--color-charcoal);
+}
+.skills{
+    display: grid;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    margin: 1rem;
+    gap: 8px;
+}
+
+.skill__title{
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.skill__icon {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.skill__title__box{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.skill__description{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.skill__description img{
+    width: auto;
+    height: 30px;
+}
