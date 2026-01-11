@@ -21,37 +21,60 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1dad10d78a.js" crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Javascript -->
-    <script src= "src/main.js"></script>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/certificate.css">
 </head>
 <body>
-        <!-- Certificate -->
-        <section id="certificate" class="section">
-            <h2 class="section__title">Certificates</h2>
-            <p class="section__description">Certificates prove hard work</p>
-            <ul>
-                <li><img src="../images/certificates/SecurityPlus Logo Certified CE.png" alt="comptia">
-                    <p><a href="https://drive.google.com/file/d/1upEmQk2d85xnUrbLUTwHLCnXi520gueu/view?usp=sharing">CompTIA Security+ SY0-701</a></p>
-                    <p>Obtained date: </p>
-                    <p>Sept 2024</p>
-                    <p>Applied SHA256 hashing for password storage in MySQL to enhance data breach resilience. <br>
-                        Trained in vulnerability assessment, incident response, system hardening, and identity management.</p>
-                </li>
-                <li><img src="../images/certificates/aws-educate-machine-learning-foundations.png" alt="Amazon AIML">
-                    <p><a href="https://drive.google.com/file/d/1znMQIZgY-Y3NcV--weB2o8bbbc11V3bm/view?usp=sharing">Generative AI with AWS</a></p>
-                    <p>Obtained date: </p>
-                    <p>July 2025</p>
-                    <p>Fundamental concepts of machine learning and applying ML to solve business problems.</p>
-                </li>
-                <li><img src="../images/certificates/google.png" alt="google data analytics">
-                    <p><a href="https://drive.google.com/file/d/1rNA3kVL0JqYz9lellmiaX7zNKHJyyIMR/view?usp=sharing">Google Data Analytics</a></p>
-                    <p>Obtained date: </p>
-                    <p>July 2025</p>
-                    <p>Hands on practice on tools and platforms including spreadsheets, SQL, Tableau, and R.</p>
-                </li>
-                
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="./main.html">Home</a></li>
+                <li><a class="header__menu__item" href="./about.html">About</a></li>
+                <li><a class="header__menu__item" href="./skills.html">Skills</a></li>
+                <li><a class="header__menu__item" href="./projects.html">Projects</a></li>
+                <li><a class="header__menu__item" href="./contact.html">Contact</a></li>
             </ul>
-        </section>
+        </nav>
+    </header>
+    <main>
+                <!-- Certificate -->
+                <section id="certificate" class="section max-container">
+                    <h2 class="section__title">Certificates</h2>
+                    <p class="section__description">Certificates prove hard work</p>
+
+                    <div class="certificates">
+                        <div class="certificate">
+                            <div class="certificate__content">
+                                <img src="../assets/images/certificates/SecurityPlus Logo Certified CE.png" alt="comptia" class="certificate__img">
+                                <p class="certificate__title">CompTIA Security+ </br> SY0-701</p>
+                                <a href="https://drive.google.com/file/d/1upEmQk2d85xnUrbLUTwHLCnXi520gueu/view?usp=sharing">
+                                    <button class="certificate__button">See credentials &#8702;</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="certificate">
+                            <div class="certificate__content">
+                                <img src="../assets/images/certificates/aws-educate-machine-learning-foundations.png" alt="Amazon AIML" class="certificate__img">
+                                <p class="certificate__title">Generative AI </br> with AWS</p>
+                                <a href="https://drive.google.com/file/d/1znMQIZgY-Y3NcV--weB2o8bbbc11V3bm/view?usp=sharing">
+                                    <button class="certificate__button">See credentials &#8702;</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="certificate">
+                            <div class="certificate__content">
+                                <img src="../assets/images/certificates/google.png" alt="google data analytics" class="certificate__img">
+                                <p class="certificate__title">Google Data Analytics</p>
+                                <a href="https://drive.google.com/file/d/1rNA3kVL0JqYz9lellmiaX7zNKHJyyIMR/view?usp=sharing">
+                                    <button class="certificate__button">See credentials &#8702;</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </main>
+
+        
 </body>
 </html>
