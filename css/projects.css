@@ -49,3 +49,62 @@ body{
     opacity: 1;
     top: 0;
 }
+
+/* Project Grid */
+.projects{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.project{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project__img{
+    width: 100%;
+}
+
+.project__metadata{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-charcoal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in;
+    transform: translateY(-10px);
+}
+
+.project__metadata:hover{
+    opacity: 0.8;
+    transform: translateY(0px);
+}
+
+.project__title{
+    padding: 0.5rem;
+}
+
+/* 프로젝트 타이틀 아래에 선 긋기, 꾸미기용 가상의 요소 만들기 */
+.project__title:after{
+    content: '';
+    display: block;
+    margin: 0.5rem auto 0 auto;
+    width: 80%;
+    border-top: 2px dashed var(--color-white);
+}
+
+.project__description{
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-style: italic;
+}
