@@ -1,0 +1,38 @@
+body{
+    background-color: var(--color-charcoal);
+}
+
+.documentations{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.documentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 1rem;
+    background-color: var(--color-gray);
+    border-radius: 10px;
+}
+
+.title{
+    margin: 1rem;
+    font-size: 2rem;
+    color: var(--color-yellow);
+}
+
+.documentation__img{
+    width: 80%;
+    height: 100%;
+    margin: 0 0.5rem;
+    border-radius: 10px;
+}
+
+.description{
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
