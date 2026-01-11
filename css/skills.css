@@ -8,8 +8,7 @@ body{
 .skill{
     display: grid;
     grid-template-columns: max-content 1fr;
-    margin: 0.3rem;
-    gap: 8px;
+    gap: 5px;
 }
 
 .skill__title{
