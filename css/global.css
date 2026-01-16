@@ -103,12 +103,14 @@ button{
 }
 
 .header__menu__item{
-    padding: 4px 16px;
+    padding: 4px 14px;
+    margin: 0 3px;
 }
 
 .header__menu__item:hover{
     outline: 1px dashed var(--color-white);
     border-radius: 10px;
+    margin: 0 3px;
 }
 
 .header__menu__item.active{
