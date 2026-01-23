@@ -90,20 +90,18 @@ body{
 
 .education__study{
     font-size: 1rem;
-    margin-bottom: 1rem;
 }
 
 
 .education__school{
-    font-weight: 900;
-    font-size: 2rem;
-    
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1rem;
 }
 
 .education__duration{
     color: lightslategray;
     font-size: 0.8rem;
-    margin-bottom: 1rem;
 
 }
 
