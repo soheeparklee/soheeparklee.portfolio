@@ -1,12 +1,69 @@
+body{
+    background-color: var(--color-pink);
+}
 /* Intro */
 #intro{
     margin-bottom: 0;
 }
 
-.intro__avatar{
+/* .intro__avatar{
     width: 250px;
     height: 250px;
     object-fit: cover;
+} */
+
+.intro__fish{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+.fish{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fishFade 6s linear infinite;
+}
+
+.fish--1 {
+    animation-delay: 0s;
+}
+.fish--2 {
+    animation-delay: 2s;
+}
+.fish--3 {
+    animation-delay: 4s;
+}
+@keyframes fishFade {
+/* fade in */
+0% {
+opacity: 0;
+}
+10% {
+opacity: 0.5;
+}
+20%{
+opacity: 1;
+}
+/* stay visible */
+30% {
+opacity: 1;
+}
+40%{
+opacity: 0.5;
+}
+/* fade out */
+50% {
+opacity: 0;
+}
+/* stay hidden */
+100% {
+opacity: 0;
+}
 }
 
 .intro__title{
